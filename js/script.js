@@ -64,7 +64,7 @@ const images = {
 
 // Define the backgrounds for each scene.
 const scenes = {
-
+	"forest": "forest.jpg"
 };
 
 // Define the Characters
@@ -78,6 +78,7 @@ const characters = {
 let script = {
 	// The game starts here.
 	"Start": [
+		"scene forest",
 		"That's awesome!"
 	]
 };
